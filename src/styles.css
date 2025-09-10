@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.auth-container,
+.dashboard {
+	max-width: 400px;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+h2 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	margin-bottom: 10px;
+	padding: 8px;
+}
+
+button {
+	padding: 8px;
+	margin: 5px 0;
+	cursor: pointer;
+}
+
+.error {
+	color: red;
+	font-size: 0.9em;
+}
